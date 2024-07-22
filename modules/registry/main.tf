@@ -4,6 +4,6 @@ provider "harbor" {
   password      = var.password
 }
 
-resource "harbor_project" "vote_api" {
-  name = "vote-api"
+resource "harbor_project" "votingbooth" {
+  name = "votingbooth"
 }
